@@ -565,4 +565,4 @@ st.write("- Outils: Streamlit, Plotly, Scikit-learn")
 
 # Footer
 st.markdown("---")
-st.markdown("Made with ❤️ By | Youssef TATI")
+st.markdown("Made with ❤️ By | Youssef TATI & Karim Maktouf")
