@@ -3,7 +3,6 @@
 **An Advanced Machine Learning Platform for Precious Metals Market Forecasting**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://metal-price-predictor-yousseftatii.streamlit.app)
-![License](https://img.shields.io/badge/License-MIT-gold.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.9%2B-blueviolet)
 ![ML Framework](https://img.shields.io/badge/Scikit--Learn-1.3.2-red)
 
