@@ -109,5 +109,5 @@ Compare with historical trends
 📧 Contact
 Project Maintainers:
 
-Youssef TATI: youssef.tati@example.com
-Karim Maktouf: karim.maktouf@example.com
+Youssef TATI: youssef.tati@ensit.u-tunis.tn
+Karim Maktouf: karim.maktouf@ensit.u-tunis.tn
