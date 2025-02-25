@@ -35,12 +35,6 @@
 - Historical performance analysis
 
 ### Technical Highlights
-# Core Prediction Logic
-def predict_metal_price(target):
-    model = joblib.load(f"{target}_model.pkl")
-    scaler = joblib.load(f"{target}_scaler.pkl")
-    scaled_input = scaler.transform(user_inputs)
-    return model.predict(scaled_input)[0]
     
 📊 Model Architecture & Performance Metrics
 
