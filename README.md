@@ -36,7 +36,7 @@
 
 ### Technical Highlights
     
-📊 Model Architecture & Performance Metrics
+####📊 Model Architecture & Performance Metrics
 
 Metal	Algorithm	MAE	RMSE	R²
 Gold	Random Forest	36.77	49.25	0.9857
@@ -49,19 +49,19 @@ Streamlit account (for deployment)
 Setup Instructions
 bash
 
-# Clone repository
+#### Clone repository
 git clone https://github.com/yousseftatii/metals-price-predictor.git
 
-# Navigate to project directory
+#### Navigate to project directory
 cd metals-price-predictor
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the application
+#### Run the application
 streamlit run app.py
 
-🌍 Deployment
+###🌍 Deployment
 Cloud Deployment via Streamlit
 Ensure all model files and data are in the root directory
 Create requirements.txt with specified dependencies
@@ -71,7 +71,7 @@ Python version: 3.9
 Startup command: streamlit run app.py
 Live Demo: Metals Price Predictor Dashboard
 
-📈 Data Pipeline Architecture
+###📈 Data Pipeline Architecture
 
 graph TD
     A[Raw Economic Data] --> B{Data Cleaning}
