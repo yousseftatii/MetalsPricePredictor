@@ -1,7 +1,5 @@
 # 🏆 Metals Price Predictor
 
-![Project Banner](https://via.placeholder.com/1280x640.png/1c110c/F5DEB3?text=Metals+Price+Predictor+📈+Predict+Gold+%26+Silver+Prices+with+AI)
-
 **An Advanced Machine Learning Platform for Precious Metals Market Forecasting**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://metal-price-predictor-yousseftatii.streamlit.app)
@@ -18,7 +16,6 @@
 - Advanced Random Forest algorithms
 - Comprehensive economic indicators monitoring
 
-![App Screenshot](https://via.placeholder.com/800x400.png/1c110c/F5DEB3?text=Interactive+Web+Interface+📊)
 
 ## 🚀 Key Features
 
@@ -38,13 +35,13 @@
 - Historical performance analysis
 
 ### Technical Highlights
-```python
 # Core Prediction Logic
 def predict_metal_price(target):
     model = joblib.load(f"{target}_model.pkl")
     scaler = joblib.load(f"{target}_scaler.pkl")
     scaled_input = scaler.transform(user_inputs)
     return model.predict(scaled_input)[0]
+    
 📊 Model Architecture & Performance Metrics
 
 Metal	Algorithm	MAE	RMSE	R²
@@ -57,8 +54,7 @@ Git
 Streamlit account (for deployment)
 Setup Instructions
 bash
-Copy
-Edit
+
 # Clone repository
 git clone https://github.com/yourusername/metals-price-predictor.git
 
@@ -70,18 +66,7 @@ pip install -r requirements.txt
 
 # Run the application
 streamlit run app.py
-File Structure
-bash
-Copy
-Edit
-metals-price-predictor/
-├── app.py                 # Main application logic
-├── clean_data.csv         # Processed dataset
-├── models/
-│   ├── or_model.pkl       # Gold price predictor
-│   └── argent_model.pkl   # Silver price predictor
-├── requirements.txt       # Dependency list
-└── README.md              # This documentation
+
 🌍 Deployment
 Cloud Deployment via Streamlit
 Ensure all model files and data are in the root directory
@@ -93,9 +78,7 @@ Startup command: streamlit run app.py
 Live Demo: Metals Price Predictor Dashboard
 
 📈 Data Pipeline Architecture
-mermaid
-Copy
-Edit
+
 graph TD
     A[Raw Economic Data] --> B{Data Cleaning}
     B --> C[Feature Engineering]
@@ -103,6 +86,7 @@ graph TD
     D --> E[Hyperparameter Tuning]
     E --> F[Prediction Interface]
     F --> G[Visual Analytics]
+
 📚 Technical Documentation
 Key Dependencies
 Package	Version	Purpose
@@ -115,6 +99,7 @@ Logarithmic transformations for non-linear relationships
 StandardScaler normalization (μ=0, σ=1)
 Temporal feature encoding
 Outlier detection using IQR method
+
 📱 User Guide
 Select Target Metal
 Choose between Gold (Prix Or) or Silver (PrixArgent)
@@ -126,18 +111,7 @@ Analyze Results
 Review predicted price
 Explore prediction confidence metrics
 Compare with historical trends
-Usage Demo
-📜 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-🤝 Contribution
-Contributions are welcome! Please follow these steps:
-
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
 📧 Contact
 Project Maintainers:
 
