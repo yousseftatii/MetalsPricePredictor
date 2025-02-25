@@ -56,7 +56,7 @@ Setup Instructions
 bash
 
 # Clone repository
-git clone https://github.com/yourusername/metals-price-predictor.git
+git clone https://github.com/yousseftatii/metals-price-predictor.git
 
 # Navigate to project directory
 cd metals-price-predictor
